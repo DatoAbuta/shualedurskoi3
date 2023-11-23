@@ -94,7 +94,7 @@ person.addEventListener('input', () => {
     }
 
     total = parseInt(bill.value / person.value) + result
-    h22.innerHTML = `$ ${total.toFixed(2)}`
+    h22.innerHTML = `$ ${total}`
 })
 
 reset.addEventListener('click', () => {
@@ -103,4 +103,9 @@ reset.addEventListener('click', () => {
     bill.value = ''
     person.value = ''
     custom.value = ''
+    btn4.classList.remove('colored')
+    btn3.classList.remove('colored')
+    btn2.classList.remove('colored')
+    btn1.classList.remove('colored')
+    btn5.classList.remove('colored')
 })
