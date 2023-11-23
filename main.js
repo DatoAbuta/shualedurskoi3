@@ -94,7 +94,7 @@ person.addEventListener('input', () => {
     }
 
     total = parseInt(bill.value / person.value) + result
-    h22.innerHTML = `$ ${total}`
+    h22.innerHTML = `$ ${total.toFixed(2)}`
 })
 
 reset.addEventListener('click', () => {
