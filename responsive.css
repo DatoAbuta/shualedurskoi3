@@ -1,0 +1,79 @@
+@media(width >= 1440px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: auto auto;
+        border-radius: 25px;
+        width: 920px;
+
+    }
+    .bill{
+        margin-top: 45px;
+        margin-left: 48px;
+    }
+    p{
+        color: #E17457;
+        text-align: right;
+        font-family: Space Mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: block;
+        margin-top: 40px;
+    }
+    .nugzar{
+        gap: 243px;
+        width: 379px;
+        margin-left: 48px;
+    }
+    .bill1{
+        width: 89px;
+    }
+    .select{
+        width: 427px;
+        margin-left: 48px;
+    }
+    .buttons{
+        grid-template-columns: auto auto auto;
+        margin-left: 48px;
+    }
+    button{
+        width: 117px;
+    }
+    .last{
+        width: 413px;
+        height: 417px;
+        justify-content: start;
+    }
+    .gio{
+        gap: 92px;
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    .gio2{
+        gap: 126px;
+    }
+    .reset{
+        margin-top: 122px;
+        margin-right: 32px;
+    }
+    .nugo{
+        gap: 243px;
+        margin-left: 0;
+        width: 379px;
+        height: 48px;
+    }
+    .number{
+        margin: 0;
+        margin-top: 40px;
+        margin-left: -210px;
+    }
+}
