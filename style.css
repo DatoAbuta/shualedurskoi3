@@ -66,6 +66,8 @@ input::-webkit-inner-spin-button {
     height: 48px;
     width: 311px;
     margin-left: 32px;
+    border-radius: 5px;
+    background: #F3F9FA;
 }
 
 .margin{
@@ -86,6 +88,16 @@ input::-webkit-inner-spin-button {
     font-weight: 700;
     line-height: normal;
     height: 36px;
+}
+.bill1::placeholder,.bill2::placeholder{
+    opacity: 0.35;
+    color: #00474B;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 /* .bill1:focus{
     outline: 2px solid #26C2AE;
@@ -232,6 +244,8 @@ button{
     gap: 192px;
     margin-top: 6px;
     width: 311px;
+    border-radius: 5px;
+    background: #F3F9FA;
 }
 
 .bill2{
