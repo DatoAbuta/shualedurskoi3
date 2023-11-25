@@ -79,7 +79,7 @@ custom.addEventListener('input', () =>{
 person.addEventListener('input', () => {
     if(person.value > 0){
         result = (parseInt(bill.value) * percent) / person.value
-        h2.innerHTML = `$ ${result.toFixed(2)}`
+        h2.innerHTML = `$${result.toFixed(2)}`
         p.innerHTML = ''
         nugo.classList.remove('cantbe')
         number.classList.remove('margin')
@@ -94,7 +94,7 @@ person.addEventListener('input', () => {
     }
 
     total = parseInt(bill.value / person.value) + result
-    h22.innerHTML = `$ ${total.toFixed(2)}`
+    h22.innerHTML = `$${total.toFixed(2)}`
 })
 
 reset.addEventListener('click', () => {
