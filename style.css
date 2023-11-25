@@ -261,6 +261,7 @@ button{
     border: none;
     border-radius: 5px;
     width: 89px;
+    background: #F3F9FA;
 }
 /* .bill2:focus{
     outline: 2px solid #26C2AE;
